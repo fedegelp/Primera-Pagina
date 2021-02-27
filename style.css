@@ -26,11 +26,6 @@ div {
 a {
   text-decoration: none;
 }
-a:-webkit-any-link {
-  color: -webkit-link;
-  cursor: pointer;
-  text-decoration: underline;
-}
 
 .pika {
   background-image: url(tumama/pagina1/pika.png);
@@ -51,17 +46,6 @@ a:-webkit-any-link {
   .pika {
     margin-left: 40px;
   }
-}
-#asdcd {
-  cursor: pointer;
-  color: blue;
-  font-size: 30px;
-  font-family: "Times New Roman", Times, serif, "Arial";
-}
-#battler {
-  width: 10%;
-  height: 10%;
-  border-radius: 70%;
 }
 .game {
   height: 400px;
@@ -224,13 +208,16 @@ a:-webkit-any-link {
 }
 
 .header1 {
-  position: relative;
+  position: fixed;
   background: #232323;
+  background-color: rgba(0, 0, 0, 0.7);
   box-shadow: 3px 3px 4px #232323;
   z-index: 99999;
   width: 100%;
   min-height: 38px;
+  transition: padding-bottom 0.3s ease;
 }
+
 .pepeyep {
   display: block;
   width: 30px;
@@ -280,7 +267,7 @@ img {
   margin: 0;
   padding: 0;
   left: 0px;
-  margin-left: -830px;
+  margin-left: -910px;
   right: 0;
   top: 13px;
   color: aliceblue;
@@ -289,9 +276,69 @@ img {
   text-align: center;
   font-weight: 900;
 }
-@media (max-width: 350px) {
+@media (min-width: 330px) and (max-width: 400px) {
   .midxd {
-    margin-left: -110px;
+    margin-left: -150px;
+  }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  .midxd {
+    margin-left: -200px;
+  }
+}
+@media (min-width: 500px) and (max-width: 600px) {
+  .midxd {
+    margin-left: -250px;
+  }
+}
+@media (min-width: 600px) and (max-width: 700px) {
+  .midxd {
+    margin-left: -300px;
+  }
+}
+@media (min-width: 700px) and (max-width: 800px) {
+  .midxd {
+    margin-left: -350px;
+  }
+}
+@media (min-width: 800px) and (max-width: 900px) {
+  .midxd {
+    margin-left: -400px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1000px) {
+  .midxd {
+    margin-left: -450px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .midxd {
+    margin-left: -500px;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .midxd {
+    margin-left: -550px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .midxd {
+    margin-left: -600px;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .midxd {
+    margin-left: -650px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1500px) {
+  .midxd {
+    margin-left: -700px;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1800px) {
+  .midxd {
+    margin-left: -780px;
   }
 }
 
@@ -307,7 +354,6 @@ section {
   display: relative;
 }
 .personasection {
-  padding: 0 0 40px;
   position: relative;
   z-index: 1;
 }
@@ -394,42 +440,19 @@ a {
 .main-img .prev:hover {
   background-position: 0 100%;
 }
-
-.ein {
-  background-position: 50% 100%;
-  background-image: url(tumama/ein.gif);
-}
-.chunli {
-  background-position: 50% 100%;
-  background-image: url(tumama/chunli.jpg);
-}
 * {
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
 }
 #prevbtn:active {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
 #nextbtn:active {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.5;
-  }
-  to {
-    opacity: 0.9;
-  }
-}
-
 @keyframes fade {
   from {
     opacity: 0.5;
@@ -498,6 +521,8 @@ a {
 .personabg {
   left: 0;
   right: 0;
+  top: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
   opacity: 0.8;
@@ -505,7 +530,7 @@ a {
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: 50% 100%;
-  background-size: cover;
+  background-size: contain;
 }
 
 .personasection .tab li {
@@ -541,7 +566,7 @@ a {
     z-index: 99; */
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   #prevbtn {
     opacity: 0;
   }
@@ -574,7 +599,7 @@ a {
   width: 8%;
   height: 8%;
   padding: 0px;
-  margin: 1px;
+  margin: 1.33px;
   border-radius: 50%;
   border-width: thin;
 }
@@ -584,8 +609,140 @@ a {
 .personabutton:focus {
   filter: none;
 }
+.personabutton:active {
+  width: 7.8%;
+}
 .personaicons2 {
   border-radius: 49%;
   width: 100%;
   height: 100%;
+}
+.global-footer {
+  width: 100%;
+  line-height: 1.5em;
+  min-height: 150px;
+  z-index: -1;
+  background-color: #303437;
+}
+.curve {
+  fill: #303437;
+  height: 7em;
+  position: relative;
+  top: 40px;
+  width: 100%;
+  z-index: -1;
+}
+@media screen and (min-width: 900px) {
+  header.shrink {
+    padding-bottom: 0;
+    background-color: rgba(146, 11, 11, 0.9);
+  }
+}
+.battler {
+  background-image: url(tumama/pagina1/battlerpng.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+.footer-div {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 1020px;
+}
+.footer-grid {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  margin-right: -12px;
+  margin-left: -12px;
+  justify-content: center;
+  flex-direction: row;
+}
+.footer-grid-item {
+  box-sizing: border-box;
+}
+.discordpng {
+  background-image: url(tumama/pagina1/social/discord.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+.youtubepng {
+  background-image: url(tumama/pagina1/social/youtube.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+.facebookpng {
+  background-image: url(tumama/pagina1/social/facebook.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+.twitterpng {
+  background-image: url(tumama/pagina1/social/twitter.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+.instagrampng {
+  background-image: url(tumama/pagina1/social/instagram.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+footer .footer-grid li {
+  margin-right: 5pt;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  filter: grayscale(100);
+}
+footer li,
+footer li a {
+  font-weight: 400;
+  font-size: 9pt;
+  padding-top: 4pt;
+  transition: 0.3s ease;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+footer ul {
+  list-style: none;
+}
+.j {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  line-height: 300px;
+  z-index: 9999;
+}
+.j:hover {
+  z-index: 9999;
+  filter: none;
+}
+.redesbutton {
+  border: none;
+  outline: none;
+  background: red;
+  background-size: inherit;
+  position: relative;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  border-width: thin;
+  border-radius: 50%;
+  z-index: 9999;
+}
+.socialicons {
+  filter: none;
+}
+.socialicons:hover {
+  filter: none;
+  transition: all 0.5s ease;
+}
+.k {
+  width: 70px;
+  height: 70px;
 }
