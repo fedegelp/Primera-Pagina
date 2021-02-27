@@ -1,0 +1,748 @@
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 1em;
+  line-height: 120%;
+  font-family: "Segoe UI", "Lucida Sans Unicode", "Lucida Grande", "Tahoma",
+    "Arial", "sans-serif";
+  display: block;
+}
+.bodybackgroundimage1 {
+  background-image: url(tumama/pagina1/barbi.jpg);
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  width: 100vw;
+  height: 1080px;
+  left: 0;
+  top: 0;
+  position: relative;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pika {
+  background-image: url(tumama/pagina1/pika.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 45px;
+  width: 45px;
+  margin-top: -15px;
+  margin-left: 13px;
+}
+.pika:hover {
+  background-image: url(tumama/pagina1/pika.gif);
+  background-repeat: no-repeat;
+  margin-top: -14px;
+}
+@media (max-width: 350px) {
+  .pika {
+    margin-left: 40px;
+  }
+}
+.game {
+  height: 400px;
+  width: 500px;
+  background: url();
+}
+.character {
+  background: url(tumama/gokupixel.png);
+  background-repeat: no-repeat;
+  background-size: 70px;
+  height: 100px;
+  width: 60px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 60px;
+}
+.character-slide {
+  background: url(tumama/gokupixel.png);
+  background-repeat: no-repeat;
+  background-size: 70px;
+  height: 100px;
+  width: 60px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 60px;
+}
+.character-slide-left {
+  background: url(tumama/gokupixelleft.png);
+  background-repeat: no-repeat;
+  background-size: 70px;
+  height: 100px;
+  width: 60px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 60px;
+}
+.ssjgodright {
+  background: url(tumama/gokussjdiosright.png);
+  background-repeat: no-repeat;
+  background-size: 47px;
+  height: 120px;
+  width: 70px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+.ssjgodleft {
+  background: url(tumama/gokussjdios.png);
+  background-repeat: no-repeat;
+  background-size: 47px;
+  height: 120px;
+  width: 70px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+.ssjgokuright {
+  background: url(tumama/gokussjright.png);
+  background-repeat: no-repeat;
+  background-size: 65px;
+  height: 120px;
+  width: 70px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 30px;
+}
+.ssjgokuleft {
+  background: url(tumama/gokussjleft.png);
+  background-repeat: no-repeat;
+  background-size: 65px;
+  height: 120px;
+  width: 70px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 30px;
+}
+.gokuchiquitoright {
+  background: url(tumama/gokuchiquitoright.gif);
+  background-repeat: no-repeat;
+  background-size: 65px;
+  height: 120px;
+  width: 70px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 30px;
+}
+.gokuchiquitoleft {
+  background: url(tumama/gokuchiquitoleft.gif);
+  background-repeat: no-repeat;
+  background-size: 65px;
+  height: 120px;
+  width: 70px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 30px;
+}
+.gokuvolandoright {
+  background: url(tumama/gokuvolandoright.gif);
+  background-repeat: no-repeat;
+  background-size: 135px;
+  height: 80px;
+  width: 100px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+.gokuvolandoleft {
+  background: url(tumama/gokuvolandoleft.gif);
+  background-repeat: no-repeat;
+  background-size: 135px;
+  height: 100px;
+  width: 130px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 280px;
+  margin-right: 50px;
+}
+.gokupiumpium {
+  background: url(tumama/gokupiumpium.gif);
+  background-repeat: no-repeat;
+  background-size: 165px;
+  height: 120px;
+  width: 160px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 50px;
+}
+.gokupiumpiumleft {
+  background: url(tumama/gokupiumpiumleft.gif);
+  background-repeat: no-repeat;
+  background-size: 165px;
+  height: 120px;
+  width: 160px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 50px;
+}
+.gokussj3right {
+  background: url(tumama/gokussj3.png);
+  background-repeat: no-repeat;
+  background-size: 58px;
+  height: 120px;
+  width: 70px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 37px;
+}
+.gokussj3left {
+  background: url(tumama/gokussj3left.png);
+  background-repeat: no-repeat;
+  background-size: 58px;
+  height: 120px;
+  width: 70px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 37px;
+}
+
+.header1 {
+  position: fixed;
+  background: #232323;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 3px 3px 4px #232323;
+  z-index: 99999;
+  width: 100%;
+  min-height: 38px;
+  transition: padding-bottom 0.3s ease;
+}
+
+.pepeyep {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(tumama/pagina1/yep.png);
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.global-header h1 a {
+  display: block;
+  width: 47px;
+  height: 43px;
+  background-image: url(tumama/pagina1/yep.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-indent: -9999em;
+}
+.global-header {
+  width: 100%;
+  height: 44px;
+  position: relative;
+  margin: auto;
+}
+.clearFix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.global-header article {
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+body,
+img {
+  margin: 0;
+  padding: 0;
+}
+.midxd {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  left: 0px;
+  margin-left: -910px;
+  right: 0;
+  top: 13px;
+  color: aliceblue;
+  display: inline;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 900;
+}
+@media (min-width: 330px) and (max-width: 400px) {
+  .midxd {
+    margin-left: -150px;
+  }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  .midxd {
+    margin-left: -200px;
+  }
+}
+@media (min-width: 500px) and (max-width: 600px) {
+  .midxd {
+    margin-left: -250px;
+  }
+}
+@media (min-width: 600px) and (max-width: 700px) {
+  .midxd {
+    margin-left: -300px;
+  }
+}
+@media (min-width: 700px) and (max-width: 800px) {
+  .midxd {
+    margin-left: -350px;
+  }
+}
+@media (min-width: 800px) and (max-width: 900px) {
+  .midxd {
+    margin-left: -400px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1000px) {
+  .midxd {
+    margin-left: -450px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .midxd {
+    margin-left: -500px;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .midxd {
+    margin-left: -550px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .midxd {
+    margin-left: -600px;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .midxd {
+    margin-left: -650px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1500px) {
+  .midxd {
+    margin-left: -700px;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1800px) {
+  .midxd {
+    margin-left: -780px;
+  }
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.849);
+  font-family: "Segoe UI", "Lucida Sans Unicode", "Lucida Grande", "Tahoma",
+    "Arial", "sans-serif";
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+section {
+  display: relative;
+}
+.personasection {
+  position: relative;
+  z-index: 1;
+}
+nav {
+  display: block;
+}
+.tab {
+  background: #1c1c1c;
+}
+a {
+  text-decoration: none;
+}
+.bodysegundapag {
+  background-image: url(tumama/pagina2/stage1.jpg);
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 970px;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  position: relative;
+  display: block;
+}
+.main-img {
+  position: relative;
+}
+.main-img .list {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+.main-img .omg {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.main-img .portada {
+  opacity: 1;
+  z-index: 1;
+}
+.selected {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+}
+.bg {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.main-img .prev {
+  left: 5%;
+  background-position: 0 0;
+}
+.main-img .next {
+  right: 5%;
+  background-position: 100% 0;
+}
+.main-img .move {
+  display: block;
+  width: 34px;
+  height: 79px;
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  background: url(tumama/pagina1/slider.png) no-repeat;
+  text-indent: -9999em;
+  z-index: 2;
+}
+.main-img .next:hover {
+  background-position: 100% 100%;
+}
+.main-img .prev:hover {
+  background-position: 0 100%;
+}
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+#prevbtn:active {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+#nextbtn:active {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
+.shadow {
+  background: url(tumama/pagina1/ico_main_visual_pattern.png) repeat;
+  text-indent: -9999em;
+}
+.fkgoback {
+  background-image: url(tumama/pagina2/bptransparent.png);
+  height: 100%;
+  width: 50%;
+  background-size: 130px;
+  z-index: 3;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  left: 25%;
+  top: -87%;
+  position: relative;
+  display: block;
+  border-radius: 100%;
+  border-color: rgb(255, 153, 153);
+  border-width: 5px;
+  border-style: solid;
+  border-radius: -66px;
+}
+.fkgoback:hover {
+  background-image: url(tumama/pagina2/bptransparentright.png);
+}
+#prevbtn {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  left: 5%;
+  font-size: 90px;
+  opacity: 0.01;
+  cursor: pointer;
+  background: url(tumama/pagina1/arrowleft.png) no-repeat;
+  background-size: cover;
+  border-width: 0px;
+  outline: none;
+}
+#nextbtn {
+  background: url(tumama/pagina1/arrowright.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  right: 5%;
+  font-size: 90px;
+  opacity: 0.01;
+  cursor: pointer;
+  border-width: 0px;
+  outline: none;
+}
+#nextbtn:hover {
+  opacity: 0.9;
+}
+#prevbtn:hover {
+  opacity: 0.9;
+}
+.personabg {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: contain;
+}
+
+.personasection .tab li {
+  display: inline;
+  position: relative;
+}
+
+.rise {
+  left: 0;
+}
+.rise:hover {
+  filter: none;
+  /*animation-name: width;
+  animation-duration: infinite;
+  animation-fill-mode: forwards;*/
+}
+
+.teddie {
+  filter: none;
+}
+.teddie:hover {
+  filter: grayscale(0%);
+  content: url(tumama/persona/teddiehumanface.png);
+  animation-name: width;
+  animation-duration: infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes width {
+  100% {
+    opacity: 1;
+    /*width: calc(100% + 20%);
+    position: relative;
+    z-index: 99; */
+  }
+}
+@media (max-width: 1000px) {
+  #prevbtn {
+    opacity: 0;
+  }
+  #nextbtn {
+    opacity: 0;
+  }
+  #prevbtn:hover {
+    opacity: 0;
+  }
+  #nextbtn:hover {
+    opacity: 0;
+  }
+}
+.pointer {
+  cursor: pointer;
+}
+.nodisplay {
+  display: none;
+}
+.relative {
+  position: relative;
+}
+.personabutton {
+  border: none;
+  outline: none;
+  background: none;
+  filter: grayscale(100%);
+  display: inline;
+  position: relative;
+  width: 8%;
+  height: 8%;
+  padding: 0px;
+  margin: 1.33px;
+  border-radius: 50%;
+  border-width: thin;
+}
+.personabutton:hover {
+  filter: none;
+}
+.personabutton:focus {
+  filter: none;
+}
+.personabutton:active {
+  width: 7.8%;
+}
+.personaicons2 {
+  border-radius: 49%;
+  width: 100%;
+  height: 100%;
+}
+.global-footer {
+  width: 100%;
+  line-height: 1.5em;
+  min-height: 150px;
+  z-index: -1;
+  background-color: #303437;
+}
+.curve {
+  fill: #303437;
+  height: 7em;
+  position: relative;
+  top: 40px;
+  width: 100%;
+  z-index: -1;
+}
+@media screen and (min-width: 900px) {
+  header.shrink {
+    padding-bottom: 0;
+    background-color: rgba(146, 11, 11, 0.9);
+  }
+}
+.battler {
+  background-image: url(tumama/pagina1/battlerpng.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+.footer-div {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 1020px;
+}
+.footer-grid {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  margin-right: -12px;
+  margin-left: -12px;
+  justify-content: center;
+  flex-direction: row;
+}
+.footer-grid-item {
+  box-sizing: border-box;
+}
+.discordpng {
+  background-image: url(tumama/pagina1/social/discord.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+.youtubepng {
+  background-image: url(tumama/pagina1/social/youtube.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+.facebookpng {
+  background-image: url(tumama/pagina1/social/facebook.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+.twitterpng {
+  background-image: url(tumama/pagina1/social/twitter.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+.instagrampng {
+  background-image: url(tumama/pagina1/social/instagram.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+footer .footer-grid li {
+  margin-right: 5pt;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  filter: grayscale(100);
+}
+footer li,
+footer li a {
+  font-weight: 400;
+  font-size: 9pt;
+  padding-top: 4pt;
+  transition: 0.3s ease;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+footer ul {
+  list-style: none;
+}
+.j {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  line-height: 300px;
+  z-index: 9999;
+}
+.j:hover {
+  z-index: 9999;
+  filter: none;
+}
+.redesbutton {
+  border: none;
+  outline: none;
+  background: red;
+  background-size: inherit;
+  position: relative;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  border-width: thin;
+  border-radius: 50%;
+  z-index: 9999;
+}
+.socialicons {
+  filter: none;
+}
+.socialicons:hover {
+  filter: none;
+  transition: all 0.5s ease;
+}
+.k {
+  width: 70px;
+  height: 70px;
+}
