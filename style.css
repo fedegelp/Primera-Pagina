@@ -689,3 +689,9 @@ a {
   justify-content: center;
   align-content: center;
 }
+.vegetagb {
+  margin: auto;
+}
+.vegetagb:hover {
+  filter: opacity(80%);
+}

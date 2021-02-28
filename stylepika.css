@@ -1,3 +1,26 @@
 body {
   background-color: rgba(0, 0, 0, 0.685);
 }
+.headerpika {
+  min-height: 40px;
+  background-color: rgba(0, 225, 255, 0.637);
+  box-shadow: 1px 1px 1px #11cbd8;
+  width: 100%;
+  z-index: 99999;
+}
+.buttonpikaheader {
+  display: grid;
+  justify-content: right;
+  align-content: right;
+}
+.headerpika button {
+  margin-top: 1.5px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+}
+.headerpika button:hover {
+  filter: opacity(80%);
+}

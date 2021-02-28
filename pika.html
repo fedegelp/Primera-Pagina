@@ -5,10 +5,33 @@
         <link rel="stylesheet" href="stylepika.css">
         <title>PIKACHU</title>
     </head>
-    <body>
-        <header>
-            
+    <body style="color: rgba(255, 255, 255, 0.815);">
+        <header class="headerpika">
+            <div class="buttonpikaheader" alt="homepage" title="PAGINA PRINCIPAL"><button onclick="location.href='index.html'"><img src="tumama/pika/gobackpika.png"></button></div>
         </header>
+        <br>
+        <div>
+            <form>
+                <p>no funciona para nada lo de abajo</p>
+                <br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <br>
+                <fieldset>
+                    <legend>Mejor inicial?</legend>
+                    <input id="Charmander" type="radio" name="iniciales" value="Charmander"> 
+                    <label for="Charmander">Charmander<img src="tumama/pika/charmander.png"></label><br> 
+                    <input id="Squirtle" type="radio" name="iniciales" value="Squirtle">
+                    <label for="Squirtle">Squirtle<img src="tumama/pika/squirtle.png"></label><br>
+                    <input id="Bulbasaur" type="radio" name="iniciales" value="Bulbasaur">
+                    <label for="Bulbasaur">Bulbasaur<img src="tumama/pika/bulbasaur.png"></label>
+                    <br>
+                    <br>
+                    <input type="submit" name="submit" value="Submit">
+                </fieldset>
+        </form>
+        </div>
         <link rel="stylesheet" href="reset.css">
     </body>
 </html>
