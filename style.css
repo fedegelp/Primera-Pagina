@@ -696,8 +696,8 @@ a {
   filter: opacity(80%);
 }
 .main-img h1 {
-  color: #eee !important;
-  font-size: 3vw !important;
+  color: #eee;
+  font-size: 3vw;
 }
 #titlebpslider {
   display: flex;
