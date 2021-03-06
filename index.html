@@ -2,6 +2,7 @@
 <html lang='en'>
     <head>
         <script src="muñequito.js" charset="UTF-8" defer></script>
+        <script src="https://kit.fontawesome.com/668450780a.js" crossorigin="anonymous" defer></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,11 +13,11 @@
         <header class="header1">
           <div class="global-header clearFix">  
               <h1>
-          <a href="segunda.html" class="pepeyep" title="JUEGUITO DE GOKU">subpag</a>
+          <a accesskey="g" href="segunda.html" class="pepeyep" title="JUEGUITO DE GOKU">subpag</a>
         </h1>
             <article>
                 <a class="midxd">EL FEDE PA</a>
-                <a title="Pikachu" class="pika" href="pika.html" style="z-index: 1;"></a>
+                <a  accesskey="p" title="Pikachu" class="pika" href="pika.html" style="z-index: 1;"></a>
             </article>
         </div>
         </header>
@@ -29,7 +30,8 @@
     </div>
         </article>
         <br>
-        <article class="main-img" style="height: 100%; width: 100%;">
+        <article class="main-img" style="height: 100%; width: 100%;"> 
+            <div id="titlebpslider"><i class="fas fa-3x fa-arrow-down "></i><h1>Image Slider!</h1><i class="fas fa-3x fa-arrow-down"></i></div>
         <ul class="list">
             <button id="prevbtn" style="height: 100px; width: 150px;"></button>
             <button id="nextbtn" style="height: 100px; width: 150px;"></button>
@@ -62,6 +64,7 @@
                         <li><button class="personabutton"><img src="tumama/persona/adachiface.png" onclick="personabackgrounds(11)" alt="Tohru Adachi" title="Tohru Adachi" class="personaicons2 rise pointer"></button></li>
                         <li><button class="personabutton"><img src="tumama/persona/nanakoface.png" onclick="personabackgrounds(12)" alt="Nanako Dojima" title="Nanako Dojima" class="personaicons2 rise pointer"></button></li>
                         <li><button class="personabutton"><img src="tumama/persona/margaretface.jpg" onclick="personabackgrounds(13)" alt="Margaret" title="Margaret" class="personaicons2 rise pointer"></button></li>
+                        <!-- <li><img tabindex="0" class="personabutton" src="tumama/persona/margaretface.jpg" onclick="personabackgrounds(13)" alt="Margaret" title="Margaret" class="personaicons2 rise pointer"></li> -->
                     </menu>
                 </nav> 
                 <br>
@@ -112,5 +115,14 @@
             </footer>
             </div>
             <link rel="stylesheet" href="reset.css">
+<!--             <script>
+                const clickenter = document.querySelector('.personabutton')
+                clickenter.forEach(li => {
+                clickenter.addEventListener('keypress', function (e) {
+            if (e.keyCode === 13){ 
+                  personabackgrounds(2)
+                }})
+            }); -->
+            </script>
     </body>
 </html>

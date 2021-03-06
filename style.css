@@ -270,7 +270,7 @@ img {
   margin-left: -910px;
   right: 0;
   top: 13px;
-  color: aliceblue;
+  color: rgb(173, 178, 182);
   display: inline;
   font-size: 15px;
   text-align: center;
@@ -694,4 +694,31 @@ a {
 }
 .vegetagb:hover {
   filter: opacity(80%);
+}
+.main-img h1 {
+  color: #eee;
+  font-size: 3vw;
+}
+#titlebpslider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-arrow-down {
+  color: #eee;
+  padding: 20px;
+}
+
+.main-img .list:hover > button {
+  animation: slidebutton 0.5s linear;
+  -webkit-animation: slidebutton 0.5s linear;
+  -moz-animation: slidebutton 0.5s linear;
+}
+@keyframes slidebutton {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }

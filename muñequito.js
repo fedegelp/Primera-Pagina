@@ -150,18 +150,16 @@ function slideLeft(){
         clearInterval(leftTimerId);
     } else if (slideLeft) return;
     isGoingLeft = true
-    left -= 10
+    left -= 12
     muñe.style.left = left + 'px'
-    /* leftTimerId = setInterval(function(){
+/*      leftTimerId = setInterval(function(){
         console.log('going left')
-    left -= 5
+    left -= 12
     muñe.style.left = left + 'px'
     },30); */
 }
-
-
 function slideRight(){
-    if (left > document.body.offsetWidth - 80) return;
+    if (left > document.body.offsetWidth - 168) return;
     if (ssjgodd === true){
         muñe.classList.remove('character-slide')
         muñe.classList.remove('character-slide-left');
@@ -247,7 +245,7 @@ function slideRight(){
         clearInterval(rightTimerId);
     }
     isGoingRight = true
-    left += 10
+    left += 12
     muñe.style.left = left + 'px'
 }
 function ssjgod(){
@@ -519,13 +517,3 @@ function teddiehuman(){
         personabackgrounds(14)
     }
 }
-
-function pokeactive() {
-    let element = document.getElementById("asd");
-    element.classList.toggle("activepoke");
-}
-
-
-
-
-
